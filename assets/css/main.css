@@ -264,6 +264,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 10px 12px 0;
 }
 
 .auth-form__heading {
@@ -351,8 +352,34 @@
     /* background-color: var(--white-color); */
 }
 
-.auth-form__socials-titlle {
+.auth-form__socials-titlle-register {
     margin: 0 36px;
 }
 
+.auth-form__socials-titlle-login {
+    margin: 0 26px;
+}
+
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #939393;
+}
+
+.auth-form__help-separate {
+    display: block;
+    height: 20px;
+    margin: 0 16px;
+    border-left: 1px solid #eaeaea;
+}
+
+.auth-form__help-forgot {
+    color: var(--primary-color);
+}
 /* End Header */
