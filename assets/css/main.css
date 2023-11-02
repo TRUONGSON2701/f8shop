@@ -1,3 +1,7 @@
+.app {
+    overflow: hidden;
+}
+
 /* Begin Header */
 .header {
     height: var(--header-height);
@@ -1368,6 +1372,7 @@ i.home-product-item__like-icon-fill {
 
 .home-product__pagination {
     margin: 48px 0 32px;
+    padding-left: 0;
 }
 /* End App container */
 
